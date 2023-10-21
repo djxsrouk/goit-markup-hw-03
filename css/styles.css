@@ -5,6 +5,30 @@ a:link, a:visited, a:active, a:hover {
     text-decoration: none;
 }
 /* Logo and Header */
+.global-header {
+    display: flex;
+    border-bottom: 1px solid #ECECEC;
+    width: 100%;
+}
+.header-navigation {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    padding: 20px;
+}
+.main-nav ul {
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.nav-contact {
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+    align-items: center;
+}
 .nav-link {
     color: var(--nav-link);
     border: none;
@@ -27,6 +51,8 @@ a:link, a:visited, a:active, a:hover {
 .logo {
     font-family: Raleway;
     font-size: 26px;
+    padding-left: 215px;
+    padding-top: 24px;
 }
 .web {
     color:#2196f3;
@@ -71,7 +97,9 @@ body {
 /* Top section */
 .top-section {
     background-color: #2f303a;
-    width: 1600px;
+    width: 100%;
+    display: block;
+    padding-top: 20%;
 }
 #title {
     color: #FFFFFF;
@@ -103,6 +131,9 @@ body {
     background: #188CE8;
 }
 /* Middle Section */
+.container {
+    width: 75%;
+}
 .middle-section ul li h3 {
     font-size: 14px;
     line-height: 16.41px;
