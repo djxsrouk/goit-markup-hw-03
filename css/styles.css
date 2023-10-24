@@ -232,10 +232,15 @@ body {
 
 .our-team-section {
     background: #F5F4FA;
-    width: 75%;
-    margin-left: 215px;
-    margin-right: 215px;
+    width: 100%;
     padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.our-team-section img {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .our-team-section h2 {
     font-size: 36px;
@@ -355,6 +360,7 @@ li .button:hover {
     align-items: center;
     max-width: 1200px;
     margin: 0;
+    padding-bottom: 94px;
 }
 
 .projects-image {
@@ -383,7 +389,7 @@ li .button:hover {
 
 .projects-image div h3 {
     color: var(--nav-link);
-    font-family: var(--head-text);
+    font-family: "roboto", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
